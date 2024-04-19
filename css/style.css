@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    min-height: 68vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.63), rgba(247, 240, 240, 0.664)), url(../images/cvb.jpg);
+margin-top: 100px;
+}
+h1{
+    font-size: 50px;
+    margin-top: 200px;
+    margin-left: 30px;
+    color: rgb(51, 17, 28);
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.copil{
+    font-size: 15px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border: 1px solid rgb(51, 17, 28);
+    width: 25%;
+    padding: 7px;
+}
+.c{
+    font-size: 15px;
+  margin-top: -195px;
+    margin-left: 540px;
+    border: 1px solid rgb(51, 17, 28);
+    width: 25%;
+    padding: 7px;
+}
+.o{
+    font-size: 15px;
+    margin-top: -195px;
+      margin-left: 1030px;
+      border: 1px solid rgb(51, 17, 28);
+      width: 25%;
+      padding: 7px;  
+}
+a{
+   position: relative;
+   bottom: 450px;
+   left: 30px;
+    display: inline;
+    padding: 10px 20px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(41, 6, 14);
+    transition: background-color 0.3 ease;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: rgb(24, 12, 17);
+}
+div{
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(51, 17, 28);
+}

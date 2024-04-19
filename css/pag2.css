@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    min-height: 68vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.63), rgba(247, 240, 240, 0.664)), url(../images/cvb.jpg);
+padding-top: 40px;
+}
+h1{ 
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 50px;
+    color: rgb(51, 17, 28);
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+.hr{
+    position: relative;
+   top: -590px;
+   left: 30px;
+     display: inline;
+     padding: 10px 20px;
+     margin: 10px;
+     color: rgb(255, 255, 255);
+     background-color: rgb(41, 6, 14);
+     transition: background-color 0.3 ease;
+     border-radius: 5px;
+ }
+ .hr:hover{
+     background-color: rgb(24, 12, 17);
+ }
+ h3{
+    margin-left: 50px;
+ }
+
+ .container {
+    position: relative;
+    display: inline-block; 
+    width: 10%; 
+    margin-right: 45px; 
+    margin-top: 7px;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    height: 200px;
+    width: 100%; 
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #ee829d;
+    color: white;
+    font-size: 10px;
+    padding: 16px 32px;
+  }
+ul{
+    margin-left:27px;
+  }
+  a{
+    margin-left: 47px;
+  }
+div{
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(51, 17, 28);
+}

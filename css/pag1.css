@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    min-height: 68vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.63), rgba(247, 240, 240, 0.664)), url(../images/cvb.jpg);
+}
+h1{
+    font-size: 35px;
+    margin-top: 100px;
+    margin-left: 32px;
+    color: rgb(51, 17, 28);
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+ 
+  
+}
+a{
+   position: relative;
+   bottom: 560px;
+   left: 30px;
+    display: inline;
+    padding: 10px 20px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(41, 6, 14);
+    transition: background-color 0.3 ease;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: rgb(24, 12, 17);
+}
+table{
+    margin-left: 50px;
+    width: 40%;
+} 
+table,td,th {
+    border: 2px black solid;
+    border-collapse: collapse;
+    padding: 0px 4px;
+   
+}
+th{
+    text-align: center;
+}
+.f {
+  position: absolute;
+    margin-left: 10px; 
+    height: 200px;
+    width:316px ;
+    top: 406px;
+    right: 470px;
+}
+.c{
+    position: absolute;
+    margin-left: 10px; 
+    height: 200px;
+    top: 170px;
+    right: 470px;
+}
+.h{
+    position: absolute;
+    margin-left: 10px; 
+    height: 425px;
+    top: 170px;
+    right: 7px;
+}
